@@ -1,0 +1,109 @@
+body{
+    margin: auto;
+    background-color: rgb(18, 17, 18);
+
+} 
+
+
+.encabezado {
+    margin: 15px;
+    padding: 15px;
+    background-color: #2cd0df;
+    display: flex;
+    justify-content: center;
+
+}
+.encabezado:hover{
+    background-color: blueviolet;
+    transform: scale(1.05);
+    
+}
+
+
+.logo {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo:hover{
+    background-color: blueviolet;
+
+}
+
+
+h1{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-right: 50px;
+    color: #5ceff4;
+    justify-content: center;
+    font-size: 50px;
+}
+
+
+
+#main {
+    display: flex;
+    flex-wrap:wrap;
+    align-content: center;
+    padding: 10px;
+    justify-content: center;
+
+    
+}
+
+
+.tarjeta {
+    line-height: 50px;
+    margin: 30px;
+    background-color:white;
+    margin: 3px;
+    border: 2px solid black;
+    text-align: center;
+    align-content: center;
+
+}
+.tarjeta:hover{
+    transform: scale(1.05);
+}
+.contenedor-img{
+    width: 100px;
+    height: 100px;
+}
+.contenedor-img img{
+    width: 100px;
+    height: 100px;
+}
+
+.info{  
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    background-color: #56cce0;
+    margin: 0px;
+    padding: 10px;
+    flex-wrap: wrap;
+
+} 
+
+img{
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    color: rgb(16, 13, 13);
+    background-color: #02B3CA;
+    margin: 20px;
+    padding: 20px
+}
+footer:hover{
+    background-color: blueviolet;
+    filter: none;
+    transform: scale(1.5);
+}
